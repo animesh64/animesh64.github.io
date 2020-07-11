@@ -57,12 +57,15 @@
   }
   nav {
     padding: 1.5em;
-    width: 50%;
+    width: 55%;
   }
   .about-desc .ico {
     text-align: center;
   }
   .about-desc .abt {
     text-align: center;
+  }
+  .section-about {
+    margin-top: 2rem;
   }
 }

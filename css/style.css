@@ -1257,7 +1257,7 @@ nav ul li {
 }
 
 .button.primary-button:hover {
-  background: whitesmoke;
+  background: rgb(239, 255, 255);
   background-clip: padding-box;
   color: #263fe0;
 }
@@ -1276,7 +1276,7 @@ nav ul li {
 }
 
 .button.secondary-button {
-  background: white;
+  background: rgb(239, 255, 255);
   background-clip: padding-box;
   transition: background 0.6s ease;
   color: #1f38da;

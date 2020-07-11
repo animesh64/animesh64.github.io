@@ -68,4 +68,7 @@
   .section-about {
     margin-top: 2rem;
   }
+  #home {
+    filter: brightness(1.08);
+  }
 }

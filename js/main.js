@@ -91,9 +91,9 @@ $(document).ready(function () {
 
   // ripple
   $("#home").ripples({
-    resolution: 300,
-    dropRadius: 20,
-    perturbance: 0.1,
+    resolution: 200,
+    dropRadius: 15,
+    perturbance: 0.08,
   });
 });
 $(document).ready(function () {

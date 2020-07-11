@@ -58,6 +58,8 @@ $(window).on("scroll", function () {
 });
 
 $(document).ready(function () {
+  "use strict";
+
   $(".feedback-slides").owlCarousel({
     loop: true,
     nav: false,
@@ -85,6 +87,13 @@ $(document).ready(function () {
         items: 2.5,
       },
     },
+  });
+
+  // ripple
+  $("#home").ripples({
+    resolution: 300,
+    dropRadius: 20,
+    perturbance: 0.1,
   });
 });
 $(document).ready(function () {

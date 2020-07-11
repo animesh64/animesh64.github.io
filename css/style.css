@@ -278,6 +278,7 @@ nav ul li {
 
 #home {
   padding-top: 5rem;
+  background-image: url("../img/Grey-Background.jpg");
 }
 
 .site-main .site-banner .site-title h3 {
@@ -392,19 +393,7 @@ nav ul li {
   transform: translateY(20px);
   padding: 0 !important;
   max-width: 950px;
-  margin-top: 1.5rem;
-}
-
-.section-about:after {
-  content: "";
-  position: absolute;
-
-  z-index: -354;
-  height: 200px;
-  width: 200px;
-  display: block;
-
-  top: -80px;
+  margin-top: -1rem;
 }
 
 .section-about:before {
@@ -1254,7 +1243,7 @@ nav ul li {
   padding: 0.8rem 2.2rem;
   font: normal 500 16px/20px var(--roboto);
   position: relative;
-  border: 3px solid transparent;
+  border: 1.5px solid #4c5fdd;
   border-radius: 4px;
 }
 
@@ -1269,7 +1258,7 @@ nav ul li {
 .button.primary-button:hover {
   background: whitesmoke;
   background-clip: padding-box;
-  color: black;
+  color: #263fe0;
 }
 
 .button.primary-button::after,
@@ -1289,6 +1278,7 @@ nav ul li {
   background: white;
   background-clip: padding-box;
   transition: background 0.6s ease;
+  color: #1f38da;
 }
 
 .button.secondary-button:hover {

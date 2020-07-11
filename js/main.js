@@ -48,7 +48,7 @@ document.getElementById("close-menu").addEventListener("click", function () {
 // about
 
 $(window).on("scroll", function () {
-  if ($(this).scrollTop() > 10) {
+  if ($(this).scrollTop() > 50) {
     $(".section-about").addClass("in");
     $(".overlay-wrap").fadeOut(400);
   } else {

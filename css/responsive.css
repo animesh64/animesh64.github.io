@@ -59,4 +59,10 @@
     padding: 1.5em;
     width: 50%;
   }
+  .about-desc .ico {
+    text-align: center;
+  }
+  .about-desc .abt {
+    text-align: center;
+  }
 }

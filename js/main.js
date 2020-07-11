@@ -87,14 +87,36 @@ $(document).ready(function () {
     },
   });
 });
-/*-----------------------------------------------------------
- * Template Name    : Justin - Personal Portfolio
- * Author           : beingeorge
- * Version          : 1.0
- * Created          : Oct 2019
- * File Description : Main Js file of the template
- *------------------------------------------------------------
- */
+$(document).ready(function () {
+  $(".mobileskill").owlCarousel({
+    loop: true,
+    nav: true,
+    dots: true,
+    autoplayHoverPause: true,
+    autoplay: true,
+    mouseDrag: true,
+    center: true,
+    margin: 20,
+    navText: [
+      "<i class='bx bx-left-arrow bx-sm'></i>",
+      "<i class='bx bx-right-arrow bx-sm' ></i>",
+    ],
+    responsive: {
+      0: {
+        items: 1.2,
+      },
+      576: {
+        items: 2,
+      },
+      768: {
+        items: 2,
+      },
+      1200: {
+        items: 4,
+      },
+    },
+  });
+});
 
 !(function ($) {
   "use strict";

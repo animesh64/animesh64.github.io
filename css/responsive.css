@@ -28,6 +28,10 @@
     left: 93%;
     top: 3%;
   }
+  #projects {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
 }
 @media only screen and (max-width: 491px) {
   header .menu-btn {
@@ -54,9 +58,5 @@
   nav {
     padding: 1.5em;
     width: 50%;
-  }
-  .skilrow {
-    margin-left: 0.05rem;
-    margin-right: 0.05rem;
   }
 }

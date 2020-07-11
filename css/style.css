@@ -571,6 +571,7 @@ nav ul li {
 #skills {
   padding-top: 1rem;
   background-color: #f7f7f7;
+  padding-bottom: 5rem;
 }
 
 .ico-circle {
@@ -585,19 +586,12 @@ nav ul li {
   display: block;
 }
 
-.line-mf {
-  width: 40px;
-  height: 5px;
-  background-color: #1c6dc9;
-  margin: 0 auto;
-}
-
 .skills-box {
   background-color: rgb(255, 255, 255);
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
-  height: max-content;
+  height: 12.2cm;
   width: auto;
 }
 
@@ -667,6 +661,34 @@ nav ul li {
   transition: all 0.15s ease-in-out;
   font-weight: 700;
   font-size: 17px;
+}
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  color: blue;
+}
+.owl-carousel .owl-nav button.owl-prev:hover {
+  background-color: transparent;
+  color: tomato;
+  transform: scale(1.2);
+}
+.owl-carousel .owl-nav button.owl-next:hover {
+  background-color: transparent;
+  color: tomato;
+  transform: scale(1.2);
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 13px;
+  height: 13px;
+  margin: 0 4px;
+  background: #cccccc;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #5001ee;
 }
 
 /*  End Skills Area */
@@ -1207,7 +1229,7 @@ nav ul li {
 .loaded {
   visibility: hidden;
   opacity: 0;
-  transition: 0.3s all ease-in-out;
+  transition: 0s all ease-in-out;
 }
 
 /* preloader end */

@@ -279,6 +279,7 @@ nav ul li {
 #home {
   padding-top: 5rem;
   background-image: url("../img/Grey-Background.jpg");
+  filter: brightness(1.05);
 }
 
 .site-main .site-banner .site-title h3 {

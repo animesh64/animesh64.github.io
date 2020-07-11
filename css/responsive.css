@@ -1,0 +1,62 @@
+@media only screen and (max-width: 984px) {
+  header .menu-btn {
+    z-index: 999;
+    left: 95%;
+    top: 3%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  header .menu-btn {
+    z-index: 999;
+    left: 94%;
+    top: 3%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  nav {
+    padding: 1.5em;
+    width: 40%;
+  }
+  nav ul {
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  header .menu-btn {
+    z-index: 999;
+    left: 93%;
+    top: 3%;
+  }
+}
+@media only screen and (max-width: 491px) {
+  header .menu-btn {
+    z-index: 999;
+    left: 91%;
+    top: 3%;
+  }
+  .site-main .site-banner .site-title h1 {
+    font-size: 4rem;
+  }
+  .site-main .site-banner .site-title h3 {
+    font-size: 2.5rem;
+  }
+  .site-main .site-banner .site-title h3::after {
+    width: 4cm;
+  }
+  .about-desc h2 {
+    text-align: center;
+  }
+  header .logo {
+    top: 2%;
+    left: 2.5%;
+  }
+  nav {
+    padding: 1.5em;
+    width: 50%;
+  }
+  .skilrow {
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+  }
+}

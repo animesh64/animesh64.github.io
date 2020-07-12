@@ -62,7 +62,7 @@ $(document).ready(function () {
 
   $(".feedback-slides").owlCarousel({
     loop: true,
-    nav: false,
+    nav: true,
     dots: true,
     autoplayHoverPause: true,
     autoplay: true,
@@ -70,8 +70,8 @@ $(document).ready(function () {
     center: true,
     margin: 30,
     navText: [
-      "<i class='flaticon-arrow-pointing-to-left'></i>",
-      "<i class='flaticon-arrow-pointing-to-right'></i>",
+      "<i class='bx bx-left-arrow bx-sm'></i>",
+      "<i class='bx bx-right-arrow bx-sm' ></i>",
     ],
     responsive: {
       0: {
@@ -118,7 +118,7 @@ $(document).ready(function () {
         items: 2,
       },
       768: {
-        items: 2,
+        items: 3,
       },
       1200: {
         items: 4,
